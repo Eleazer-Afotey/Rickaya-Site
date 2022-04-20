@@ -9,6 +9,7 @@
       src="https://kit.fontawesome.com/19699f7fb1.js"
       crossorigin="anonymous"
     ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -186,11 +187,28 @@
               <!-- Accordion Body -->
               <div class="accordion-collapse collapsed show" id="accordion-1">
                 <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aliquid sint similique minima doloribus nam nihil sequi
-                  dolores pariatur, ipsa suscipit esse molestiae. Omnis tempore
-                  quam saepe voluptate! Dolorum, natus voluptatem. Debitis quis
-                  reprehenderit ex ipsa.
+                  RICKAYA SYKES > is a senior pursuing a BFA in
+Theatre with a concentration in performance and a minor
+in media studies. Recent credits include Phillis Wheatly
+in What They Did For Us (Heritage Theatre Ensemble
+Company), Nurse #2 in Machinal (VCU), and Emma
+in Jouska (VCU SALT). Rickaya is Co-Director of Don't
+Tell Me I Can't Fly (VCU SALT), worked as an extra on
+the TV shows Walking Dead and Swagger, and has
+been in several short films. Rickaya says,
+"I hope to inspire the younger
+generation and ensure they know that you do not have to fit the 'norm:' be
+a certain size, color, or ethnicity in order to succeed. My dad always tells
+me
+'Rickaya you have greatness within you' and that is something I want
+others to know about themselves. My mother is my role model and I live by
+her quote
+What is for You, is for You, and No one can take it away from
+you.
+I would not be where I am right now, doing what I love, without loving
+parents and a supportive family." Rickaya is a strong believer in God. She
+says,
+"Without him, nothing that I have done would be possible."
                 </div>
               </div>
             </div>
@@ -283,7 +301,7 @@
       <section class="py-5 bg-gallery" id="portfolio">
         <div class="container py-5">
           <div class="section-title-center text-center pb-5">
-            <h2 class="fw-bolder border-bottom border-info border-3 d-inline-block ">My Gallery</h2>
+            <h2 class="fw-bolder border-bottom border-info border-3 d-inline-block"  data-aos="zoom-in" >My Gallery</h2>
           </div>
           <div class="portfolio-filter text-center pb-5">
             <button class="fil-btn clicked" data-filter="*">Photos</button>
@@ -367,13 +385,13 @@
         <div class="row">
           <div class="col-12">
             <div class="py-5 text-center">
-              <h2 class="fw-bolder border-bottom border-info border-3 d-inline-block ">Contact Me</h2>
-              <p>
+              <h2 class="fw-bolder border-bottom border-info border-3 d-inline-block "  data-aos="zoom-in">Contact Me</h2>
+              <p  data-aos="zoom-in-up" data-aos-delay="150">
                 Send me a message today! I'm looking forward to hearing from you
                 and working with you as well
               </p>
             </div>
-            <form action="contact_php" method="POST">
+            <form action="contact_php" method="POST"  data-aos="fade-up">
               <div class="mb-3">
                 <input
                   type="text"
@@ -450,5 +468,9 @@
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/core.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({duration: 1000});
+    </script>
   </body>
 </html>
