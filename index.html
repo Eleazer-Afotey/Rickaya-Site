@@ -4,7 +4,285 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home</title>
+    <script
+      src="https://kit.fontawesome.com/19699f7fb1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- NAVIGATION STARTS ----------------------------- -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      id="navbar-scroll"
+    >
+      <div class="custom-wrapper">
+        <!-- logo -->
+        <a href="index.html" class="navbar-brand">
+          <img src="images/logo-2.png" alt="logo" />
+        </a>
+        <!-- Responsive button -->
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navBar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- nav links -->
+        <div class="collapse navbar-collapse" id="navBar">
+          <ul class="navbar-nav mx-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav-social text-center pb-3 pb-lg-0">
+            <a href="" class="me-2"
+              ><i href="#" class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="" class="me-2"><i href="#" class="fab fa-twitter"></i></a>
+            <a href="" class="me-2"
+              ><i href="#" class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVIGATION ENDS -------------------- -->
+
+    <!-- SLIDER STARTS--------------------------- -->
+    <header
+      class="header position-relative"
+      id="home"
+      style="background-image: url('images/bg-image.jpg')"
+    >
+      <div
+        class="d-flex flex-column justify-content-center container py-5 min-vh-100"
+      >
+        <h1 class="site-title">
+          Hello, I'm <span class="text-name">Rickaya</span>
+        </h1>
+        <p class="fs-4 my-job my-4">I Am an <span class="typewriter"></span></p>
+      </div>
+      <a href="#about" class="scroll-down-arrow text-white position-absolute">
+        <span class="animated"
+          ><i class="fas fa-chevron-down text-white"></i
+        ></span>
+      </a>
+    </header>
+    <!---------- SLIDER ENDS---------------------------- -->
+
+    <!-- STATISTICS DIV STARTS -->
+    <div class="container my-5">
+      <div class="row mb-5">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div
+            class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+            data-aos="fade-up"
+          >
+            <div>
+              <i class="far fa-smile fa-3x text-primary"></i>
+            </div>
+            <div>
+              <p class="fs-1 fw-bolder mb-0">30</p>
+              <p class="mb-1">Happy Clients</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div
+            class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+            data-aos="fade-up"
+            data-aos-delay="150"
+          >
+            <div>
+              <i class="fas fa-trophy fa-3x text-success"></i>
+            </div>
+            <div>
+              <p class="fs-1 fw-bolder mb-0">12</p>
+              <p class="mb-1">Awards won</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div
+            class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div>
+              <i class="fas fa-file-invoice fa-3x text-danger"></i>
+            </div>
+            <div>
+              <p class="fs-1 fw-bolder mb-0">150</p>
+              <p class="mb-1">Projects Done</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div
+            class="d-flex justify-content-around shadow-lg align-items-center p-4 rounded"
+            data-aos="fade-up"
+            data-aos-delay="450"
+          >
+            <div>
+              <i class="fas fa-user-friends fa-3x text-info"></i>
+            </div>
+            <div>
+              <p class="fs-1 fw-bolder mb-0">45</p>
+              <p class="mb-1">Teams worked With</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  STATISTICS DIV ENDS-->
+
+    <!-- ABOUT SECTION STARTS -->
+    <section id="about" class="bg-light py-5">
+      <div class="container">
+        <div class="text-center py-5">
+          <h2
+            class="fw-bolder border-bottom border-info border-3 d-inline-block"
+            data-aos="zoom-in"
+          >
+            About
+          </h2>
+          <p class="fs-5 mt-3" data-aos="zoom-in-up" data-aos-delay="150">
+            I've worked with a diverse group of people in multiple spaces. Find
+            out a little about me
+          </p>
+        </div>
+        <div class="col-xl-8 mx-auto mb-5">
+          <div class="accordion">
+            <!-- single Accordion -->
+            <div
+              class="accordion-item rounded-3 shadow-sm mb-3"
+              data-aos="fade-up"
+            >
+              <!-- Accordion header -->
+              <h5 class="accordion-headder rounded-3 overflow-hidden">
+                <button
+                  class="accordion-button"
+                  data-bs-target="#accordion-1"
+                  data-bs-toggle="collapse"
+                >
+                  Short Information about Me
+                </button>
+              </h5>
+              <!-- Accordion Body -->
+              <div class="accordion-collapse collapsed show" id="accordion-1">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid sint similique minima doloribus nam nihil sequi
+                  dolores pariatur, ipsa suscipit esse molestiae. Omnis tempore
+                  quam saepe voluptate! Dolorum, natus voluptatem. Debitis quis
+                  reprehenderit ex ipsa.
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion-item rounded-3 shadow-sm mb-3"
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
+              <!-- Accordion header -->
+              <h5 class="accordion-headder rounded-3 overflow-hidden">
+                <button
+                  class="accordion-button"
+                  data-bs-target="#accordion-2"
+                  data-bs-toggle="collapse"
+                >
+                  What I have acheived over the years.
+                </button>
+              </h5>
+              <!-- Accordion Body -->
+              <div class="accordion-collapse collapse" id="accordion-2">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid sint similique minima doloribus nam nihil sequi
+                  dolores pariatur, ipsa suscipit esse molestiae. Omnis tempore
+                  quam saepe voluptate! Dolorum, natus voluptatem. Debitis quis
+                  reprehenderit ex ipsa.
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="accordion-item rounded-3 shadow-sm mb-3"
+              data-aos="fade-up"
+              data-aos-delay="250"
+            >
+              <!-- Accordion header -->
+              <h5 class="accordion-headder rounded-3 overflow-hidden">
+                <button
+                  class="accordion-button"
+                  data-bs-target="#accordion-3"
+                  data-bs-toggle="collapse"
+                >
+                  What Makes me Special
+                </button>
+              </h5>
+              <!-- Accordion Body -->
+              <div class="accordion-collapse collapse" id="accordion-3">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid sint similique minima doloribus nam nihil sequi
+                  dolores pariatur, ipsa suscipit esse molestiae. Omnis tempore
+                  quam saepe voluptate! Dolorum, natus voluptatem. Debitis quis
+                  reprehenderit ex ipsa.
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion-item rounded-3 shadow-sm mb-3"
+              data-aos="fade-up"
+              data-aos-delay="350"
+            >
+              <!-- Accordion header -->
+              <h5 class="accordion-headder rounded-3 overflow-hidden">
+                <button
+                  class="accordion-button"
+                  data-bs-target="#accordion-4"
+                  data-bs-toggle="collapse"
+                >
+                  Why Choose Me
+                </button>
+              </h5>
+              <!-- Accordion Body -->
+              <div class="accordion-collapse collapse" id="accordion-4">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid sint similique minima doloribus nam nihil sequi
+                  dolores pariatur, ipsa suscipit esse molestiae. Omnis tempore
+                  quam saepe voluptate! Dolorum, natus voluptatem. Debitis quis
+                  reprehenderit ex ipsa.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION ENDS -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

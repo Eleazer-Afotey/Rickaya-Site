@@ -1,0 +1,218 @@
+/*font-family: 'Montserrat', sans-serif*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400;1,700&family=Source+Code+Pro:wght@200;300;600;900&display=swap");
+
+/*font-family: 'Poppins', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400;1,700&family=Poppins:ital,wght@0,400;0,500;0,700;1,100;1,200&family=Source+Code+Pro:wght@200;300;600;900&display=swap");
+
+:root {
+  --primary: #0275d8;
+  --secondary: #868690;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--secondary);
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+strong {
+  font-weight: 700;
+}
+
+p {
+  color: var(--secondary);
+}
+
+/* basic styling */
+.bg-dark-1 {
+  background: #191919;
+}
+.bg-dark-2 {
+  background: #101010;
+}
+
+.section-title {
+  font-size: 62px;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+/* Nav Bar styling */
+.navbar {
+  background-color: #f4f4f4f4;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: var(--primary) !important;
+}
+
+/* Home section */
+.site-title {
+  font-size: 75px;
+}
+
+.site-title .text-name {
+  color: transparent;
+  -webkit-text-stroke: 3px var(--primary);
+}
+
+p.my-job {
+  color: black;
+}
+
+.scroll-down-arrow {
+  left: 50%;
+  bottom: 38px;
+}
+
+.animated {
+  position: relative;
+  animation: fadeInDown 1.5s infinite;
+}
+
+@keyframes fadeInDown {
+  0% {
+    top: -25px;
+    opacity: 0;
+  }
+  100% {
+    top: 10px;
+    opacity: 1;
+  }
+}
+
+/* about section */
+.nav-tabs .nav-link {
+  color: white;
+}
+.nav-tabs .nav-link:hover {
+  border-color: #0275d8;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #3e3e3e;
+  border-color: #0275d8;
+  color: #0275d8;
+}
+
+/* services section */
+.single-service-icon i {
+  color: var(--primary);
+  font-size: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.single-service-icon {
+  min-width: 72px;
+  min-height: 72px;
+  background-color: #3c3c3c;
+  border-radius: 5px;
+}
+
+.single-service p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.grid-item {
+  margin-bottom: 15px;
+}
+.grid-content img {
+  max-width: 100%;
+  padding-bottom: 5px;
+}
+
+.portfolio-filter button {
+  border: 0;
+  background-color: transparent;
+  color: white;
+}
+
+.portfolio-filter button.clicked {
+  color: var(--primary);
+}
+
+/* Contact form */
+#submit-button:hover {
+  background: transparent;
+}
+
+/* footer */
+.custom-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0.75rem;
+  max-width: 1820px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.nav-social a {
+  color: var(--secondary);
+}
+.nav-social a:hover {
+  color: var(--primary);
+}
+
+/* top */
+.scroll-to-top {
+  position: fixed;
+  right: 50px;
+  bottom: 80px;
+  display: none;
+}
+
+.scroll-to-top i {
+  color: var(--primary);
+  background-color: #383838;
+  padding: 14px 16px;
+  border-radius: 7px;
+  transition: background-color 0.2s ease;
+}
+
+.scroll-to-top i:hover {
+  background-color: #696969;
+}
+
+/* Responsivenss */
+
+@media only screen and (max-width: 992px) {
+  body {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .site-title {
+    font-size: 50px;
+  }
+  .section-title {
+    font-size: 40px;
+  }
+  .nav-tabs {
+    justify-content: center;
+  }
+  footer img {
+    display: none;
+  }
+} ;
