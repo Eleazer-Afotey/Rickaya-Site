@@ -46,6 +46,10 @@ p {
   background: #101010;
 }
 
+.bg-gallery {
+  background: #dcd2cc;
+}
+
 .section-title {
   font-size: 62px;
   color: white;
