@@ -5,7 +5,7 @@ used in banner
 
 var app = document.querySelector(".typewriter");
 
-app.style.color = "#0275d8";
+app.style.color = "#10caf0";
 
 var typewriter = new Typewriter(app, {
   loop: true,
@@ -14,8 +14,6 @@ var typewriter = new Typewriter(app, {
 typewriter
   .typeString("Actress")
   .pauseFor(2000)
-  .deleteAll()
-  .typeString("Singer")
   .deleteAll()
   .typeString("Artist")
   .pauseFor(2000)
