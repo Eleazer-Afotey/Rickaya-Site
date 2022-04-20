@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400;1,700&family=Poppins:ital,wght@0,400;0,500;0,700;1,100;1,200&family=Source+Code+Pro:wght@200;300;600;900&display=swap");
 
 :root {
-  --primary: #0275d8;
+  --primary: #10caf0;
   --secondary: #868690;
 }
 
@@ -47,11 +47,19 @@ p {
 }
 
 .bg-gallery {
-  background: #dcd2cc;
+  background: #191919;
 }
 
 .bg-contact {
   background: #f4f4f4;
+}
+
+.bg-footer {
+  background: #191919;
+}
+
+.about-color {
+  color: #868690;
 }
 
 .section-title {
