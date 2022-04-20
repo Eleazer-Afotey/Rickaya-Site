@@ -50,6 +50,10 @@ p {
   background: #dcd2cc;
 }
 
+.bg-contact {
+  background: #f4f4f4;
+}
+
 .section-title {
   font-size: 62px;
   color: white;
