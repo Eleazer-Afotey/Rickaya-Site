@@ -12,10 +12,13 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter
-  .typeString("Actress")
+  .typeString("an Actress")
   .pauseFor(2000)
   .deleteAll()
-  .typeString("Artist")
+  .typeString("a Model")
+  .pauseFor(2000)
+  .deleteAll()
+  .typeString("a Creator")
   .pauseFor(2000)
   .start();
 
